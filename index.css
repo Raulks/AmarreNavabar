@@ -1,60 +1,75 @@
 body {
-    margin: 0px
+  margin: 0px;
 }
 
-.logo>h1{
-    color:#aaba0c;
+.logo > h1 {
+  color: #aaba0c;
 }
-.divNavContainer>ul,
-li>ul {
-    list-style: none;
-}
-
-.divNavContainer>ul {
-    padding: 0px;
+button > b {
+  color: #aaba0c;
 }
 
+hr {
+  margin: 0;
+}
+ul {
+  margin: 0;
+}
+.divNavContainer > ul,
+li > ul {
+  list-style: none;
+}
+
+.divNavContainer > ul {
+  padding: 0px;
+}
+li > button {
+  background: transparent;
+  border: none !important;
+  outline: none;
+}
 @media (max-width: 575.98px) {
-    nav {
-        display: flex;
-        justify-content: space-between;
-        padding: 0px 8px 0px 8px;
-        align-items: center;
-        height: 63px;
-        background-image: url(./astronomy-1867616_1920.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8px 0px 8px;
+    align-items: center;
+    height: 63px;
+    background-image: url(./astronomy-1867616_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-    .divNavContainer {
-        background-image:url(./astronomy-1867616_1920.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: absolute;
-        left: 0px;
-        top: 63px;
-        width: 54vw;
-        display: none;
-    }
+  .divNavContainer {
+    background-image: url(./astronomy-1867616_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: absolute;
+    left: 0px;
+    top: 63px;
+    width: 58vw;
+    display: none;
+  }
 
-    .dropDownLi {
-        display: flex;
-        flex-direction: column;
-    }
+  .dropDownLi {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .dropDownLi>ul {
-        display: none
-    }
-
-
+  .dropDownLi > ul {
+    display: none;
+  }
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
 
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
 
-
-@media (min-width: 992px) and (max-width: 1199.98px) {}
-
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+}
