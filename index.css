@@ -16,6 +16,7 @@ li>ul {
 
 @media (max-width: 575.98px) {
     nav {
+        padding-top: 3px;
         display: flex;
         justify-content: space-between;
         padding: 0px 8px 0px 8px;
