@@ -16,10 +16,9 @@ li>ul {
 
 @media (max-width: 575.98px) {
     nav {
-        padding-top: 3px;
         display: flex;
         justify-content: space-between;
-        padding: 0px 8px 0px 8px;
+        padding: 3px 8px 0px 8px;
         align-items: center;
         height: 63px;
         background-image: url(astronomy-1867616_1920.jpg);
