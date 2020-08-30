@@ -12,12 +12,15 @@ button > b {
 hr {
   margin: 0;
 }
-ul {
-  margin: 0;
+
+ul>li{
+    color:#aaba0c;
+    font-style: oblique;
 }
 .divNavContainer > ul,
 li > ul {
   list-style: none;
+  margin: 1vw 0;
 }
 
 .divNavContainer > ul {
@@ -27,6 +30,7 @@ li > button {
   background: transparent;
   border: none !important;
   outline: none;
+  padding: 3vw 0 3vw 0;
 }
 @media (max-width: 575.98px) {
   nav {
@@ -46,10 +50,13 @@ li > button {
     background-size: cover;
     background-position: bottom;
     position: absolute;
-    left: 0px;
     top: 63px;
-    width: 58vw;
+    max-width: 58vw;
+    min-height:50vw;
     display: none;
+    left:0;
+    right:0
+
   }
 
   .dropDownLi {
