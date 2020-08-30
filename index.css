@@ -29,7 +29,7 @@ li>ul {
     .divNavContainer {
         background-image:url(./astronomy-1867616_1920.jpg);
         background-repeat: no-repeat;
-        background-attachment: cover;
+        background-size: cover;
         position: absolute;
         left: 0px;
         top: 63px;
