@@ -52,12 +52,12 @@ li > button {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    position: fixed;
+    position: absolute;
     top: 63px;
     width: 58vw;
-    height: 100vh;
     left: -58vw;
     transition: 1s;
+    height: 170vw;
     overflow: hidden;
   }
 
