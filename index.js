@@ -1,13 +1,14 @@
+
 abrirYcerrar = () => {
   let iconoMenu = document.querySelector(".hamburguer>img");
   let navContainer = document.querySelector(".divNavContainer");
 
   if (iconoMenu.getAttribute("src") == "icono-menu.png") {
     iconoMenu.setAttribute("src", "close-menu.png");
-    navContainer.style.display = "block";
+    navContainer.style.left = "0vw";
   } else {
     iconoMenu.setAttribute("src", "icono-menu.png");
-    navContainer.style.display = "none";
+    navContainer.style.left = "-58vw";
   }
 };
 
