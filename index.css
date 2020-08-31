@@ -58,7 +58,7 @@ li > button {
     left: -58vw;
     transition: 1s;
     height: 170vw;
-    overflow: hidden;
+    overflow: scroll;
   }
 
   .dropDownLi {
