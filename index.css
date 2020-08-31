@@ -55,10 +55,10 @@ li > button {
     position:fixed;
     top: 63px;
     width: 58vw;
-    min-height: 90vh;
+    height: 100vh;
     left:-58vw;
     transition: 1s;
-    overflow: scroll;
+    overflow-y: scroll;
   }
 
 
