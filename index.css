@@ -52,7 +52,7 @@ li > button {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    position:absolute;
+    position:fixed;
     top: 63px;
     width: 58vw;
     min-height: 90vh;
