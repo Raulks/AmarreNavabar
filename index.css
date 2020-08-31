@@ -33,7 +33,10 @@ li > button {
   outline: none;
   padding: 3vw 0 3vw 0;
 }
-
+li>img{
+  width: 300px;
+  height: 100px;
+}
 @media (max-width: 575.98px) {
   nav {
     top: 0;
@@ -62,13 +65,17 @@ li > button {
     overflow: scroll;
   }
 
+  button>img{
+    width:40vw;
+    height: 10vw;
+  }
   .dropDownLi {
     display: flex;
     flex-direction: column;
   }
 
   .dropDownLi:last-child{
-    padding-bottom: 40vw;
+    padding-bottom: 15vw;
   }
 
   .dropDownLi > ul {
