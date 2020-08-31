@@ -37,14 +37,14 @@ li > button {
   nav {
     top:0;
     display: flex;
-    justify-content: space-between;
-    padding: 0px 8px 0px 8px;
+    justify-content: space-around;
     align-items: center;
     height: 63px;
     background-image: url(./astronomy-1867616_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
+    width:100%;
   }
 
   .divNavContainer {
