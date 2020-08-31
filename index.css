@@ -43,7 +43,7 @@ li > button {
     background-image: url(./astronomy-1867616_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: sticky;
+    position: fixed;
   }
 
   .divNavContainer {
