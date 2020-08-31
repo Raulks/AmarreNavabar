@@ -35,7 +35,7 @@ li > button {
 }
 @media (max-width: 575.98px) {
   nav {
-    top:0;
+    top: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -44,7 +44,7 @@ li > button {
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
-    width:100%;
+    width: 100%;
   }
 
   .divNavContainer {
@@ -52,15 +52,14 @@ li > button {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    position:fixed;
+    position: fixed;
     top: 63px;
     width: 58vw;
     height: 100vh;
-    left:-58vw;
+    left: -58vw;
     transition: 1s;
-    overflow-y: scroll;
+    overflow: hidden;
   }
-
 
   .dropDownLi {
     display: flex;
