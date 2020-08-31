@@ -33,6 +33,7 @@ li > button {
   outline: none;
   padding: 3vw 0 3vw 0;
 }
+
 @media (max-width: 575.98px) {
   nav {
     top: 0;
@@ -64,6 +65,10 @@ li > button {
   .dropDownLi {
     display: flex;
     flex-direction: column;
+  }
+
+  .dropDownLi:last-child{
+    padding-bottom: 25vw;
   }
 
   .dropDownLi > ul {
