@@ -8,6 +8,9 @@ button > b {
   font-size:15px;
 }
 
+.oro:hover{
+  color: rgb(206, 149, 4);
+}
 hr {
   margin: 0;
   border: 1px solid #beac4a;
