@@ -1,46 +1,6 @@
 body {
   margin: 0px;
 }
-
-
-button > b {
-  color: #b8ae15;
-  font-size:15px;
-}
-
-.oro:hover{
-  color: rgb(206, 149, 4);
-}
-hr {
-  margin: 0;
-  border: 1px solid #beac4a;
-}
-
-ul > li {
-  color: #aaba0c;
-  font-style: oblique;
-}
-.divNavContainer > ul,
-li > ul {
-  list-style: none;
-  margin: 1vw;
-  padding:0;
-}
-
-.divNavContainer > ul {
-  padding: 0px;
-  margin: 1vw 0;
-}
-li > button {
-  background: transparent;
-  border: none !important;
-  outline: none;
-  padding: 3vw 0 3vw 0;
-}
-li>img{
-  width: 300px;
-  height: 100px;
-}
 @media (max-width: 575.98px) {
   nav {
     top: 0;
@@ -67,7 +27,39 @@ li>img{
     transition: 1s;
     height: 158vw;
     overflow-y: auto;
-    text-align:center;
+    text-align: center;
+  }
+  button > b {
+    color: #b8ae15;
+    font-size: 15px;
+  }
+  hr {
+    margin: 0;
+    border: 1px solid #beac4a;
+  }
+  ul > li {
+    color: #aaba0c;
+  }
+  .divNavContainer > ul,
+  li > ul {
+    list-style: none;
+    margin: 1vw;
+    padding: 0;
+  }
+
+  .divNavContainer > ul {
+    padding: 0px;
+    margin: 1vw 0;
+  }
+  .oro:hover {
+    color: rgb(206, 149, 4);
+  }
+
+  li > button {
+    background: transparent;
+    border: none !important;
+    outline: none;
+    padding: 3vw 0 3vw 0;
   }
 
   .dropDownLi {
@@ -75,19 +67,186 @@ li>img{
     flex-direction: column;
   }
 
-  .dropDownLi:last-child{
+  .dropDownLi:last-child {
     padding-bottom: 30vw;
   }
 
   .dropDownLi > ul {
     display: none;
   }
+  .logo > img {
+    width: 215px;
+    height: 28px;
+    padding-top: 3px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+  nav {
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 63px;
+    background-image: url(./img/astronomy-1867616_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+  }
+  .divNavContainer {
+    background-image: url(./img/astronomy-1867616_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: absolute;
+    top: 63px;
+    width: 58vw;
+    left: -58vw;
+    transition: 1s;
+    height: 158vw;
+    overflow-y: auto;
+    text-align: center;
+  }
+  ul > li {
+    font-style: oblique;
+    font-size: 20px;
+  }
+  button > b {
+    color: #b8ae15;
+    font-size: 20px;
+  }
+  hr {
+    margin: 0;
+    border: 1px solid #beac4a;
+  }
+  ul > li {
+    color: #aaba0c;
+  }
+  .divNavContainer > ul,
+  li > ul {
+    list-style: none;
+    margin: 1vw;
+    padding: 0;
+  }
+
+  .divNavContainer > ul {
+    padding: 0px;
+    margin: 1vw 0;
+  }
+  .oro:hover {
+    color: rgb(206, 149, 4);
+  }
+
+  li > button {
+    background: transparent;
+    border: none !important;
+    outline: none;
+    padding: 3vw 0 3vw 0;
+  }
+
+  .dropDownLi {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dropDownLi:last-child {
+    padding-bottom: 30vw;
+  }
+
+  .dropDownLi > ul {
+    display: none;
+  }
+  .logo > img {
+    width: 290px;
+    height: 37px;
+    padding-top: 3px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+  nav {
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-image: url(./img/astronomy-1867616_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+  }
+
+  .divNavContainer {
+    background-image: url(./img/astronomy-1867616_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: absolute;
+    top: 80px;
+    width: 32vw;
+    left:0;
+    height: 158vw;
+    overflow-y: auto;
+    text-align: center;
+  }
+  .divNavContainer > ul,
+  li > ul {
+    list-style: none;
+    margin: 1vw;
+    padding: 0;
+  }
+
+  .divNavContainer > ul {
+    padding: 0px;
+    margin: 1vw 0;
+  }
+
+  .hamburguer > img {
+    display: none;
+  }
+  .logo > img {
+    width: 419px;
+    height: 51px;
+    padding-top: 7px;
+  }
+  .chat > img {
+    display: none;
+  }
+  .dropDownLi {
+    display: flex;
+    flex-direction: column;
+  }
+  .dropDownLi > ul {
+    display: block;
+  }
+  .oro:hover {
+    color: rgb(206, 149, 4);
+  }
+
+  li > button{
+    background: transparent;
+    border: none !important;
+    outline: none;
+    padding: 1vw 0 1vw 0;
+    pointer-events: none;
+  }
+  ul > li {
+    font-style: oblique;
+    font-size: 20px;
+  }
+  button > b {
+    color: #b8ae15;
+    font-size: 20px;
+  }
+  hr {
+    margin: 0;
+    border: 1px solid #beac4a;
+  }
+  ul > li {
+    color: #aaba0c;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
