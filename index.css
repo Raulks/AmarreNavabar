@@ -2,15 +2,15 @@ body {
   margin: 0px;
 }
 
-.logo > h1 {
-  color: #aaba0c;
-}
+
 button > b {
-  color: #aaba0c;
+  color: #b8ae15;
+  font-size:15px;
 }
 
 hr {
   margin: 0;
+  border: 1px solid #beac4a;
 }
 
 ul > li {
@@ -21,6 +21,7 @@ ul > li {
 li > ul {
   list-style: none;
   margin: 1vw;
+  padding:0;
 }
 
 .divNavContainer > ul {
@@ -44,7 +45,7 @@ li>img{
     justify-content: space-around;
     align-items: center;
     height: 63px;
-    background-image: url(./astronomy-1867616_1920.jpg);
+    background-image: url(./img/astronomy-1867616_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: fixed;
@@ -52,7 +53,7 @@ li>img{
   }
 
   .divNavContainer {
-    background-image: url(./astronomy-1867616_1920.jpg);
+    background-image: url(./img/astronomy-1867616_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -62,13 +63,10 @@ li>img{
     left: -58vw;
     transition: 1s;
     height: 158vw;
-    overflow: scroll;
+    overflow-y: auto;
+    text-align:center;
   }
 
-  button>img{
-    width:40vw;
-    height: 10vw;
-  }
   .dropDownLi {
     display: flex;
     flex-direction: column;

@@ -3,11 +3,11 @@ abrirYcerrar = () => {
   let iconoMenu = document.querySelector(".hamburguer>img");
   let navContainer = document.querySelector(".divNavContainer");
 
-  if (iconoMenu.getAttribute("src") == "icono-menu.png") {
-    iconoMenu.setAttribute("src", "close-menu.png");
+  if (iconoMenu.getAttribute("src") == "./img/icono-menu.png") {
+    iconoMenu.setAttribute("src", "./img/close-menu.png");
     navContainer.style.left = "0vw";
   } else {
-    iconoMenu.setAttribute("src", "icono-menu.png");
+    iconoMenu.setAttribute("src", "./img/icono-menu.png");
     navContainer.style.left = "-58vw";
   }
 };
