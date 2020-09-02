@@ -1,6 +1,22 @@
 body {
   margin: 0px;
 }
+.divNavContainer > ul {
+  padding: 0px;
+  margin: 1vw 0;
+}
+.dropDownLi {
+  display: flex;
+  flex-direction: column;
+}
+hr {
+  margin: 0;
+  border: 1px solid #beac4a;
+}
+ul > li {
+  color: #aaba0c;
+}
+
 @media (max-width: 575.98px) {
   nav {
     top: 0;
@@ -34,23 +50,12 @@ body {
     color: #b8ae15;
     font-size: 15px;
   }
-  hr {
-    margin: 0;
-    border: 1px solid #beac4a;
-  }
-  ul > li {
-    color: #aaba0c;
-  }
+
   .divNavContainer > ul,
   li > ul {
     list-style: none;
     margin: 1vw;
     padding: 0;
-  }
-
-  .divNavContainer > ul {
-    padding: 0px;
-    margin: 1vw 0;
   }
   .oro:hover {
     color: rgb(206, 149, 4);
@@ -61,11 +66,6 @@ body {
     border: none !important;
     outline: none;
     padding: 3vw 0 3vw 0;
-  }
-
-  .dropDownLi {
-    display: flex;
-    flex-direction: column;
   }
 
   .dropDownLi:last-child {
@@ -118,23 +118,11 @@ body {
     color: #b8ae15;
     font-size: 20px;
   }
-  hr {
-    margin: 0;
-    border: 1px solid #beac4a;
-  }
-  ul > li {
-    color: #aaba0c;
-  }
   .divNavContainer > ul,
   li > ul {
     list-style: none;
     margin: 1vw;
     padding: 0;
-  }
-
-  .divNavContainer > ul {
-    padding: 0px;
-    margin: 1vw 0;
   }
   .oro:hover {
     color: rgb(206, 149, 4);
@@ -145,11 +133,6 @@ body {
     border: none !important;
     outline: none;
     padding: 3vw 0 3vw 0;
-  }
-
-  .dropDownLi {
-    display: flex;
-    flex-direction: column;
   }
 
   .dropDownLi:last-child {
@@ -189,7 +172,7 @@ body {
     position: absolute;
     top: 80px;
     width: 32vw;
-    left:0;
+    left: 0;
     height: 158vw;
     overflow-y: auto;
     text-align: center;
@@ -200,12 +183,6 @@ body {
     margin: 0.4vw;
     padding: 0;
   }
-
-  .divNavContainer > ul {
-    padding: 0px;
-    margin: 1vw 0;
-  }
-
   .hamburguer > img {
     display: none;
   }
@@ -221,14 +198,8 @@ body {
     display: flex;
     flex-direction: column;
   }
-  .dropDownLi > ul {
-    display: block;
-  }
-  .oro:hover {
-    color: rgb(206, 149, 4);
-  }
 
-  li > button{
+  li > button {
     background: transparent;
     border: none !important;
     outline: none;
@@ -243,15 +214,8 @@ body {
     color: #b8ae15;
     font-size: 20px;
   }
-  hr {
-    margin: 0;
-    border: 1px solid #beac4a;
-  }
-  ul > li {
-    color: #aaba0c;
-  }
 }
-@media (min-width: 992px) and (max-width: 1199.8px){
+@media (min-width: 992px) and (max-width: 1199.8px) {
   nav {
     top: 0;
     display: flex;
@@ -274,9 +238,9 @@ body {
     position: absolute;
     top: 80px;
     width: 24vw;
-    left:0;
+    left: 0;
     height: 88vw;
-    overflow-y:auto;
+    overflow-y: auto;
     text-align: center;
   }
   .divNavContainer > ul,
@@ -285,12 +249,6 @@ body {
     margin: 0.4vw;
     padding: 0;
   }
-
-  .divNavContainer > ul {
-    padding: 0px;
-    margin: 1vw 0;
-  }
-
   .hamburguer > img {
     display: none;
   }
@@ -302,18 +260,8 @@ body {
   .chat > img {
     display: none;
   }
-  .dropDownLi {
-    display: flex;
-    flex-direction: column;
-  }
-  .dropDownLi > ul {
-    display: block;
-  }
-  .oro:hover {
-    color: rgb(206, 149, 4);
-  }
 
-  li > button{
+  li > button {
     background: transparent;
     border: none !important;
     outline: none;
@@ -327,13 +275,6 @@ body {
   button > b {
     color: #b8ae15;
     font-size: 20px;
-  }
-  hr {
-    margin: 0;
-    border: 1px solid #beac4a;
-  }
-  ul > li {
-    color: #aaba0c;
   }
 }
 @media (min-width: 1200px) and (max-width: 1491.8px) {
@@ -359,9 +300,9 @@ body {
     position: absolute;
     top: 80px;
     width: 20vw;
-    left:0;
+    left: 0;
     height: 75vw;
-    overflow-y:auto;
+    overflow-y: auto;
     text-align: center;
   }
   .divNavContainer > ul,
@@ -370,12 +311,6 @@ body {
     margin: 0.4vw;
     padding: 0;
   }
-
-  .divNavContainer > ul {
-    padding: 0px;
-    margin: 1vw 0;
-  }
-
   .hamburguer > img {
     display: none;
   }
@@ -387,18 +322,8 @@ body {
   .chat > img {
     display: none;
   }
-  .dropDownLi {
-    display: flex;
-    flex-direction: column;
-  }
-  .dropDownLi > ul {
-    display: block;
-  }
-  .oro:hover {
-    color: rgb(206, 149, 4);
-  }
 
-  li > button{
+  li > button {
     background: transparent;
     border: none !important;
     outline: none;
@@ -412,13 +337,6 @@ body {
   button > b {
     color: #b8ae15;
     font-size: 20px;
-  }
-  hr {
-    margin: 0;
-    border: 1px solid #beac4a;
-  }
-  ul > li {
-    color: #aaba0c;
   }
 }
 @media (min-width: 1492px) {
@@ -444,9 +362,9 @@ body {
     position: absolute;
     top: 80px;
     width: 17vw;
-    left:0;
+    left: 0;
     height: 75vw;
-    overflow-y:auto;
+    overflow-y: auto;
     text-align: center;
   }
   .divNavContainer > ul,
@@ -455,12 +373,6 @@ body {
     margin: 0.4vw;
     padding: 0;
   }
-
-  .divNavContainer > ul {
-    padding: 0px;
-    margin: 1vw 0;
-  }
-
   .hamburguer > img {
     display: none;
   }
@@ -476,14 +388,8 @@ body {
     display: flex;
     flex-direction: column;
   }
-  .dropDownLi > ul {
-    display: block;
-  }
-  .oro:hover {
-    color: rgb(206, 149, 4);
-  }
 
-  li > button{
+  li > button {
     background: transparent;
     border: none !important;
     outline: none;
@@ -497,12 +403,5 @@ body {
   button > b {
     color: #b8ae15;
     font-size: 20px;
-  }
-  hr {
-    margin: 0;
-    border: 1px solid #beac4a;
-  }
-  ul > li {
-    color: #aaba0c;
   }
 }
