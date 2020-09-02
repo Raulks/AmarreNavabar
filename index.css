@@ -16,7 +16,12 @@ hr {
 ul > li {
   color: #aaba0c;
 }
-
+.dropDownLi>img{
+  align-self: center;
+  width:120px;
+  height:120px;
+  margin: 2vh 2vh;
+}
 @media (max-width: 575.98px) {
   nav {
     top: 0;
@@ -214,6 +219,10 @@ ul > li {
     color: #b8ae15;
     font-size: 20px;
   }
+  .dropDownLi>img{
+    width:200px;
+    height:200px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199.8px) {
   nav {
@@ -276,6 +285,10 @@ ul > li {
     color: #b8ae15;
     font-size: 20px;
   }
+  .dropDownLi>img{
+    width:200px;
+    height:200px;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1491.8px) {
   nav {
@@ -337,6 +350,10 @@ ul > li {
   button > b {
     color: #b8ae15;
     font-size: 20px;
+  }
+  .dropDownLi>img{
+    width:200px;
+    height:200px;
   }
 }
 @media (min-width: 1492px) {
@@ -403,5 +420,9 @@ ul > li {
   button > b {
     color: #b8ae15;
     font-size: 20px;
+  }
+  .dropDownLi>img{
+    width:200px;
+    height:200px;
   }
 }
