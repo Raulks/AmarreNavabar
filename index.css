@@ -1,7 +1,7 @@
 body {
   margin: 0px;
 }
-.divNavContainer > ul {
+#divNavContainer > ul {
   padding: 0px;
   margin: 1vw 0;
 }
@@ -37,15 +37,15 @@ ul > li {
     width: 100%;
   }
 
-  .divNavContainer {
+  #divNavContainer {
     background-image: url(./img/sky-828648_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
     position: absolute;
     top: 63px;
-    width: 58vw;
-    left: -58vw;
+    width: 59vw;
+    left: -59vw;
     transition: 1s;
     height: 158vw;
     overflow-y: auto;
@@ -56,7 +56,7 @@ ul > li {
     font-size: 15px;
   }
 
-  .divNavContainer > ul,
+  #divNavContainer > ul,
   li > ul {
     list-style: none;
     margin: 1vw;
@@ -101,15 +101,15 @@ ul > li {
     position: fixed;
     width: 100%;
   }
-  .divNavContainer {
+  #divNavContainer {
     background-image: url(./img/sky-828648_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
     position: absolute;
     top: 63px;
-    width: 58vw;
-    left: -58vw;
+    width: 59vw;
+    left: -59vw;
     transition: 1s;
     height: 158vw;
     overflow-y: auto;
@@ -123,7 +123,7 @@ ul > li {
     color: #b8ae15;
     font-size: 20px;
   }
-  .divNavContainer > ul,
+  #divNavContainer > ul,
   li > ul {
     list-style: none;
     margin: 1vw;
@@ -169,7 +169,7 @@ ul > li {
     width: 100%;
   }
 
-  .divNavContainer {
+  #divNavContainer {
     background-image: url(./img/sky-828648_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -182,7 +182,7 @@ ul > li {
     overflow-y: auto;
     text-align: center;
   }
-  .divNavContainer > ul,
+  #divNavContainer > ul,
   li > ul {
     list-style: none;
     margin: 0.4vw;
@@ -235,7 +235,7 @@ ul > li {
     width: 100%;
   }
 
-  .divNavContainer {
+  #divNavContainer {
     background-image: url(./img/sky-828648_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -248,7 +248,7 @@ ul > li {
     overflow-y: auto;
     text-align: center;
   }
-  .divNavContainer > ul,
+  #divNavContainer > ul,
   li > ul {
     list-style: none;
     margin: 0.4vw;
@@ -297,7 +297,7 @@ ul > li {
     width: 100%;
   }
 
-  .divNavContainer {
+  #divNavContainer {
     background-image: url(./img/sky-828648_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -310,7 +310,7 @@ ul > li {
     overflow-y: auto;
     text-align: center;
   }
-  .divNavContainer > ul,
+  #divNavContainer > ul,
   li > ul {
     list-style: none;
     margin: 0.4vw;
@@ -359,7 +359,7 @@ ul > li {
     width: 100%;
   }
 
-  .divNavContainer {
+  #divNavContainer {
     background-image: url(./img/sky-828648_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -372,7 +372,7 @@ ul > li {
     overflow-y: auto;
     text-align: center;
   }
-  .divNavContainer > ul,
+  #divNavContainer > ul,
   li > ul {
     list-style: none;
     margin: 0.4vw;
